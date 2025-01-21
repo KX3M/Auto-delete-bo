@@ -9,7 +9,7 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7714512079:AAEbpWPhkm7HFqArHFNrXQ9pokXeRTgjZjU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8035145553:AAEX1fBlN1gK_NSDjsULYkTa77iorn9_1To")
 APP_ID = int(os.environ.get("APP_ID", "24371796"))
 API_HASH = os.environ.get("API_HASH", "8121c78f4b8b31e88cc2623d1277338d")
 
@@ -17,12 +17,12 @@ API_HASH = os.environ.get("API_HASH", "8121c78f4b8b31e88cc2623d1277338d")
 OWNER = os.environ.get("OWNER", "Tharun_stryker") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "6586630448")) #Owner user id
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://hamzann:hamza00@cluster0.id2lo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "Aira_Anime_Bot")
+DB_NAME = os.environ.get("DB_NAME", "Shinob_anime_Bot")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002496022552"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002189440226"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002189440226"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002449249482"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002306307006"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002306307006"))
 
 
 SECONDS = int(os.getenv("SECONDS", "1200")) # auto delete in seconds
