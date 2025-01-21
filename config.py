@@ -33,7 +33,7 @@ PORT = os.environ.get("PORT", "8080")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
-START_PIC = os.environ.get("START_PIC", "https://envs.sh/gqj.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/gW4.jpg")
 
 
 
